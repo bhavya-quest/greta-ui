@@ -67,7 +67,7 @@ By extending Shadcn UI, we avoid these challenges while still delivering value t
 ## What Was Implemented
 
 ### 1. Project Setup and Rebranding
-- **Initial Project**: Started with a Shadcn registry project (wds-shadcn-registry)
+- **Initial Project**: Started with a Shadcn registry project
 - **Rebranding**: Renamed the project to "Greta UI Library" to align with the Greta ecosystem
 - **Configuration**: Set up Astro Starlight for documentation, with React and Tailwind CSS
 - **Environment Variables**: Added defaults for GitHub repo URL, deployment URLs, etc.

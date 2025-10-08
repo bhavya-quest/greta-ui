@@ -128,16 +128,6 @@ export default defineConfig({
           label: "GitHub",
           href: GITHUB_REPO_URL_DEFAULT,
         },
-        {
-          icon: "youtube",
-          label: "YouTube",
-          href: "https://www.youtube.com/@WebDevSimplified",
-        },
-        {
-          icon: "x.com",
-          label: "X.com",
-          href: "https://x.com/DevSimplified",
-        },
       ],
       customCss: ["./src/styles/global.css"],
       sidebar: [
