@@ -7,7 +7,7 @@ const components = (await getCollection("docs")).filter(entry =>
 
 export function GET() {
   return generateOpenGraphImage({
-    title: "WDS Shadcn Registry",
+    title: "Greta UI Registry",
     tags: ["Accessible", "Shadcn Native Feel", "Type Safe"],
     secondaryText: `${components.length} Components`,
   })

@@ -10,7 +10,7 @@ import prettier from "eslint-config-prettier"
 import reactHooks from "eslint-plugin-react-hooks"
 import { globalIgnores } from "eslint/config"
 
-export default tseslint.config([
+export default [
   globalIgnores([
     "node_modules/",
     ".astro/",
@@ -71,4 +71,4 @@ export default tseslint.config([
     files: ["**/*.astro"],
   },
   prettier,
-])
+]
