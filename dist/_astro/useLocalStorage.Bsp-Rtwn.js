@@ -1,0 +1,1 @@
+import{r as a}from"./index.CY-HDqYb.js";function u(e,n){const[o,s]=a.useState(n);return a.useEffect(()=>{const t=window.localStorage.getItem(e);t&&s(JSON.parse(t))},[e]),[o,t=>{const r=t instanceof Function?t(o):t;s(r),window.localStorage.setItem(e,JSON.stringify(r))}]}export{u};

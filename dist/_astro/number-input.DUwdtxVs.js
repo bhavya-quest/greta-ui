@@ -1,0 +1,1 @@
+import{j as m}from"./jsx-runtime.D_zvdyIk.js";import{I as o}from"./input.rKuendQV.js";import"./index.CY-HDqYb.js";function i({onChange:t,value:e,...n}){return m.jsx(o,{...n,onChange:u=>{const r=u.target.valueAsNumber;t(isNaN(r)?null:r)},value:e??"",type:"number"})}export{i as N};

@@ -1,0 +1,1 @@
+import{j as e}from"./jsx-runtime.D_zvdyIk.js";import{N as o}from"./number-input.DUwdtxVs.js";import{r as s}from"./index.CY-HDqYb.js";import"./input.rKuendQV.js";import"./utils.bwi5Gg-C.js";function i(){const[r,t]=s.useState(null);return e.jsx(o,{placeholder:"Age",value:r,onChange:t,className:"w-[250px]"})}export{i as BasicNumberInput};
